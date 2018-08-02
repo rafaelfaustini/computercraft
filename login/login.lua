@@ -6,9 +6,9 @@ local orientacoes =
    ['esquerda']= 'left',
   ['direita']= 'right',
   ['cima'] = 'top',
-  ['baixo'] = 'back',
+  ['baixo'] = 'bottom',
   ['frente'] = 'front',
-  ['tras'] = 'tras',
+  ['tras'] = 'back',
 }
 return orientacoes[n]
 end
